@@ -1,0 +1,24 @@
+DateFormat:
+  expires_at: "&7&l[&c&lExpires At&7&l]&c&l "
+  useful_life: "&7&l[&a&lUseful Life&7&l]&c&l "
+  s: " &a&lSeconds"
+  m: " &a&lMinutes"
+  h: " &a&lHours"
+  d: " &a&lDays"
+Settings:
+  #Wether start time counting down on player clicks the item
+  #if false the time counting down will only start when player use the item
+  #armor will start counting down when player take damage
+  start_date_calculate_on_click: true
+  #if players armor expires on damage
+  #reset players max health to 20? prevent some health boost rpg attributes
+  reset_player_health_if_armor: true
+  #Enble item break Sounds?
+  Sounds: true
+Messages:
+  prefix: "&7 [&e&lHuyYonHSDItems&7] &r"
+  expire: "&cYour item has Expired!"
+  config_reload: "&aConfig reloaded!"
+  invalid_usage: "&cInvalid usage! /ti set [number] [Unit of time] s:Seconds m:Minutes h:Hours d:Days"
+  time_set: "&aSuccessfully set item useful life!"
+  no_item: "&cThere's no item in your hand dude!"

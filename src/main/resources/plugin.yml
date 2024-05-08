@@ -1,0 +1,12 @@
+name: HuyYonHSDItem
+version: '${project.version}'
+main: me.huyyon.huyyonhsditem.Main
+api-version: '1.16'
+authors: [Huy Yon]
+commands:
+  hansudung:
+    aliases:
+      - hsd
+      - hanitem
+      - giahanitem
+    permission: hansudung.admin
